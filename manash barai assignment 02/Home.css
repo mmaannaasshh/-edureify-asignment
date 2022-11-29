@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+    font-family: "Inter", sans-serif;
+}
+.main_div h1 {
+    padding: 40px;
+    font-size: 43px;
+    color: #172b4c;
+    font-weight: 600;
+}
+.course-selection-div {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+}
+.course-selection-div h2{
+    font-size: 39px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    color: #161616;
+}
+.selection-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.option {
+    width: 225px;
+    height: 188px;
+    background-color: #172b4c;
+    transition: 0.3s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.option:hover{
+    background-color: #00736e;
+}
+.selection-option>:first-child{
+    cursor: pointer;
+}
+.image{
+width: 35%;
+}
+.image img{
+    width: 100%;
+}
+.option p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
