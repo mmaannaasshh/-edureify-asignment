@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.logo {
+    width: 100px;
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.logo img {
+    width: 100%;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.justify-contentcenter {
+    justify-content: center;
+}
+.justify-content-spacebetween {
+    justify-content: space-between;
+}
+.align-itemcenter {
+    align-items: center;
+}
+.menuList ul {
+    list-style: none;
+    color: grey;
+    gap: 20px;
+    font-size: 12px;
+
+    margin-right: 10px;
+}
+.menuList ul li {
+    padding: 10px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border_r {
+    position: relative;
+}
+.border_r::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 30px;
+    background-color: rgb(233, 228, 228);
+    top: 13px;
+    left: 0;
+}
+nav {
+    box-shadow: -9px -8px 15px grey;
+}
+
+/* ////// selection-list */
+.selection-list {
+    position: relative;
+    left: 25px;
+    top: 50px;
+    width: 15%;
+}
+.selection-list::before {
+    content: "";
+    width: 3px;
+    height: 400px;
+    position: absolute;
+    left: -25px;
+    background-color: rgb(219, 219, 219);
+}
+.selection-list ul {
+    list-style: none;
+    color: rgb(184, 179, 179);
+    font-size: 12px;
+    margin: 6px 0px 20px 0px;
+    position: relative;
+    font-weight: 400;
+}
+.selection-list #unic::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: 3px solid rgb(8, 7, 46);
+    position: absolute;
+    background-color: rgb(8, 7, 46);
+    left: -29px;
+}
+.selection-list ul::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border: 3px solid rgb(184, 179, 179);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    left: -29px;
+}
+.selection-list ul li {
+    color: rgb(184, 179, 179);
+    font-size: 12px;
+    margin: 6px 0px;
+    font-weight: 400;
+}
+.selection-content {
+    width: 85%;
+    height: 20px;
+}
+.selection-item {
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: -2px 2px 11px -3px grey;
+    border-left: 10px solid rgb(9, 75, 161);
+}
+
+.font-h4 {
+    font-size: 13px;
+    color: rgb(11, 28, 58);
+    font-weight: 700;
+}
+.font-p {
+    font-size: 12px;
+    color: rgb(173, 167, 167);
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.pan_img{
+width: 173px;
+position: relative;
+margin-right: 20px;
+}
+.pan_img img{
+    width: 100%;
+}
+.warning{
+    /* content:"Scan your pan to outfillyour Rekout!"; */
+    width: 224px;
+    border: 2px dotted rgb(9, 75, 161);
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+    left: 190px;
+    background-color:#ecf9ff;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 12px;
+    color: rgb(179, 172, 172);
+}
+.from-control{
+    border: 1px solid rgb(216, 213, 213);
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 11px;
+    margin-right: 20px;
+    
+}
+.from-control::placeholder{
+color: rgb(201, 196, 196);
+font-weight: 600;
+}
+#p{
+    color: rgb(121, 119, 119);
+    font-size: 11px;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 2px;
+}
